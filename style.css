@@ -5,7 +5,7 @@
 }
 
 body{
-   background-image: url("assets/
+   background-image: url("clouds.jpg/
      clouds.jpg");
    background-repeat: no-repeat;
      background-size: cover;
@@ -14,7 +14,7 @@ body{
      font-family:'Roboto', sans-serif;
      }
 
-.greet{
+.welcome {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -22,15 +22,15 @@ body{
   translateY(-50%);
 }
 
-.nav a{
+.navigation a{
   text-decoration: none;
   color-white;
 }
 
-.nav .right_nav{
+.navigation .right_nav{
   display: flex;
 }
 
-.nav .right_nav > h3:not(:last-child) {
+.navigation .right_nav > h3:not(:last-child) {
   margin-right: 30px;
 }
